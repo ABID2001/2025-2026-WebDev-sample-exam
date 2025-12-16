@@ -1,0 +1,40 @@
+1. Blue
+    The !important declaration overrides all other selectors
+2. <h1>
+3. Both the first and second paragraph
+    Tags must be closed in the correct order: <strong></strong> inside <p></p>
+    The <link> tag is for resources in the head section, not for hyperlinks
+4. The body is missing
+    <body> is missing
+5. .header
+6. All the answers are true
+7. The DOM is an API that represents the document as a node tree and is independent of JavaScript.
+8. document.createElement('input')
+9. A syntax extension for JavaScript that lets JavaScript return HTML-like elements
+10. <NotFound />
+11. <Welcome name="Sara" />
+12. Renders the matching child route element
+13. It matches any route not handled by previous <Route> entries
+14. 
+    1 2
+    1 2 1
+15. A C B
+16. const onlyNames = apiUsers.map(x=>x.name);
+17. The JavaScript engine uses the Event Loop to coordinate tasks handled by Web APIs
+18. [2, 3, 4]
+19. Managing service lifetimes and dependencies
+20. Passing dependencies through constructors
+21. Automatic model validation and binding
+22. Reads JSON from request body
+23. b() must be called to continue pipeline
+24. Middleware Before → Controller → Middleware After
+    Request pipeline goes into middleware → next → controller → back out of middleware.
+25. /admin request is blocked with 403
+    Returning before next() blocks pipeline completely
+26. Always 200 with string
+27. A contract describing operations for Product data
+28. DbContext
+    DbContext manages entities, queries, configuration, and database connection.
+29. An IQueryable of products
+    Without ToList(), EF returns a query (not executed).
+30. Will likely result in an error or a failed database operation
