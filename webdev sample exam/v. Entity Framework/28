@@ -1,0 +1,10 @@
+28
+Which EF Core class represents a session with the database and allows querying and saving data?
+
+DbTable
+
+DbClient
+
+DbContext
+
+EntitySet

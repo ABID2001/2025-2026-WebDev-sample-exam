@@ -1,0 +1,10 @@
+13
+What is the correct way to pass props to a `<Welcome />` React component?
+
+<Welcome name="Sara" />
+
+<Welcome {name: "Sara"} />
+
+<Welcome="Sara" />
+
+<Welcome> Sara </Welcome>

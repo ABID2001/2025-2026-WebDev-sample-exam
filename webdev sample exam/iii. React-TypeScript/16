@@ -1,0 +1,31 @@
+type Admin = {
+  kind: "admin";
+  id: number;
+  name: string;
+  permissions: string;
+}
+
+type Member = {
+  kind: "member", id: number, name: string, points: number;
+}
+
+type User = Admin | Member;
+
+const apiUsers:Array<User> = [
+  { kind: "member", id: 1, name: "Alice", points: 42 },
+  { kind: "admin", id: 2, name: "Bob", permissions: ["read", "write"] },
+  { kind: "member", id: 3, name: "Charlie", points: 5 }
+];
+
+/*
+16
+Look at the TypeScript code above. What would you do if you wanted to use only the names of users in your component?
+
+const onlyNames = apiUsers.filter(x=>x.name);
+
+const onlyNames = apiUsers.map(name);
+
+const onlyNames = apiUsers.map(x=>x.name);
+
+const onlyNames = apiUsers.reduce(name);
+*/

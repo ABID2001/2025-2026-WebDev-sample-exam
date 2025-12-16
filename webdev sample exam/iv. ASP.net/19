@@ -1,0 +1,10 @@
+19
+What is Dependency Injection used for in ASP.NET Core?
+
+Generating new entities
+
+Managing service lifetimes and dependencies
+
+Compiling EF migrations
+
+Configuring controllers

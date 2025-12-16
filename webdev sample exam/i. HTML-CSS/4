@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Example</title>
+</head>
+<section id="contact">
+    <h1>Contact Us</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+</html>
+
+<!--
+4
+What is incorrect about this HTML5 document?
+
+All the answers are correct
+
+The textarea is not supported by current browsers
+
+The body is missing
+
+The br tags are not closed correctly
+-->

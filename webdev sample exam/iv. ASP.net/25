@@ -1,0 +1,21 @@
+app.Use(async (ctx, next) =>
+{
+    if (ctx.Request.Path == "/admin")
+    {
+        ctx.Response.StatusCode = 403;
+        return;
+    }
+    await next();
+});
+
+/*
+25
+What is the output of this middleware if the condition is met
+/admin request results in 500
+
+/admin request returns empty body but controller still runs
+
+/admin request is blocked with 403
+
+/admin request reaches the controller
+*/

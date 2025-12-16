@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Specificity Example</title>
+    <style>
+        p {
+            color: blue !important;
+        }
+
+        #main p {
+            color: red;
+        }
+
+        p.content {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper" id="main">
+        <p class="content" style="color: yellow;">Example</p>
+    </div>
+</body>
+</html>
+
+<!--
+1
+What will be the color of the text in the paragraph?
+
+Green
+
+Red
+
+Blue
+
+Yellow
+-->

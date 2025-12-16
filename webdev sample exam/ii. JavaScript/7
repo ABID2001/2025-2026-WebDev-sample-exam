@@ -1,0 +1,10 @@
+7
+Which statement is true?
+
+The DOM is part of the JavaScript language specification.
+
+The DOM only contains element nodes, not text or comment nodes.
+
+The DOM is an API that represents the document as a node tree and is independent of JavaScript.
+
+The DOM cannot be modified once the page is loaded.

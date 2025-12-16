@@ -1,0 +1,12 @@
+app.Use(async (a, b) =>
+{
+await a.Response.WriteAsync("A");
+});
+
+/*
+23
+Is there anything wrong with the code?
+Nothing is wrong, the code executes correctly
+
+b() must be called to continue pipeline
+*/

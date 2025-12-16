@@ -1,0 +1,10 @@
+8
+Which method is used to create a new HTML element using JavaScript?
+
+document.insertElement('input')
+
+document.createElement('input')
+
+document.addElement('input')
+
+document.newElement('input')

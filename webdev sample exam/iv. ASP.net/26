@@ -1,0 +1,9 @@
+26
+What is returned 
+[HttpGet]public ActionResult<string> Get() => "Hello";
+
+ActionResult cannot return raw strings
+
+Only a string
+
+Always 200 with string

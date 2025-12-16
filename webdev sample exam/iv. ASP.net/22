@@ -1,0 +1,10 @@
+22
+What does [FromBody] do
+
+Reads from query string
+
+Reads from URL
+
+Reads JSON from request body
+
+Reads form-data only

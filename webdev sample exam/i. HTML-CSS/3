@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Example</title>
+</head>
+<body>
+    <div>
+        <p>This is a paragraph with <strong>bold text</p></strong>
+        <p>
+            This is another paragraph,
+            with a <link href="page.html">link to another page</link>
+        </p>
+    </div>
+</body>
+</html>
+
+<!--
+3
+Which part(s) of this HTML5 document contain(s) mistakes?
+
+The second paragraph
+
+The first paragraph
+
+Everything is correct
+
+Both the first and second paragraph
+-->

@@ -1,0 +1,10 @@
+10
+What is the main reason JavaScript can handle asynchronous tasks despite being single-threaded?
+
+JavaScript pauses synchronous code until asynchronous tasks finish
+
+All asynchronous tasks are executed in parallel on the CPU
+
+The JavaScript engine uses the Event Loop to coordinate tasks handled by Web APIs
+
+It secretly spawns multiple JavaScript threads

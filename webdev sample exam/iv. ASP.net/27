@@ -1,0 +1,10 @@
+27
+What does IRepository<Product> represent?
+
+A single product
+
+A contract describing operations for Product data
+
+A DbContext replacement
+
+A factory for product entities

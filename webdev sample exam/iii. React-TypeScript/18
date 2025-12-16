@@ -1,0 +1,50 @@
+type Success<T> = {
+  status: 'OK';
+  result: T;
+};
+
+type Fail = {
+  status: 'Fail';
+  reason: string;
+};
+
+type ReturnType<T> = Success<T> | Fail;
+
+function MysteryFunction<T, R>(
+  arr: Array<T>,
+  fn: (val: T, index: number) => R
+): ReturnType<R[]> {
+  if (arr.length <= 0) return { status: 'Fail', reason: 'Empty array' };
+
+  const result: Array<R> = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == undefined)
+      return { status: 'Fail', reason: `Empty at index ${i}` };
+    result.push(fn(arr[i]!, i));
+  }
+
+  return { status: 'OK', result: result };
+}
+
+// Example usage
+const res = MysteryFunction([1, 2, 3], (x) => x + 1);
+
+if (res.status == 'Fail') {
+  console.log(res.reason);
+} else {
+  console.log(res.result);
+}
+
+/*
+18
+What is the console output of the TypeScript code above?
+
+Empty array
+
+[1, 2, 3]
+
+Fail
+
+[2, 3, 4]
+*/

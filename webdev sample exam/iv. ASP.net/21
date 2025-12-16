@@ -1,0 +1,10 @@
+21
+What does [ApiController] enable automatically?
+
+Automatic model validation and binding
+
+Authorization
+
+Routing configuration
+
+Database migrations

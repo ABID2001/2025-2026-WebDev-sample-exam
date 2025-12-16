@@ -1,0 +1,10 @@
+5
+Which CSS selector is correct for targeting an element with class="header"?
+
+@header
+
+.header
+
+#header
+
+element.header

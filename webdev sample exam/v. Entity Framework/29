@@ -1,0 +1,12 @@
+29
+What does the following LINQ query return?
+
+_context.Products.Where(p => p.Price > 50);
+
+A compiled delegate
+
+An IQueryable of products
+
+An executed list of products
+
+A SQL query string

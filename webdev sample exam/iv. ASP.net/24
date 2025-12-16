@@ -1,0 +1,10 @@
+24
+What is the correct order of execution for a middleware that logs both before and after?
+
+Middleware Before → Controller → Middleware After
+
+Filters → Middleware → Controller
+
+Controller → Middleware → Filters
+
+Controller → Middleware Before → Middleware After

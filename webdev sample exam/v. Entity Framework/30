@@ -1,0 +1,18 @@
+30
+What will the following code snippet do? Provided the product with id  10 is not there
+
+var p = _context.Products.Find(10);
+if (p == null)
+{
+p = new Product { Id = 10, Name = "Test" };
+_context.Products.Update(p);
+_context.SaveChanges();
+}
+
+Will likely result in an error or a failed database operation
+
+Will add new Product in the database with product Id 10
+
+Will update the database with product Id 10
+
+Will cause a compile time error because of re-assigning p from null to a new Product
