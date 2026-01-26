@@ -1,0 +1,17 @@
+/*
+24
+In an ASP.NET Core Controller, what is the HTTP Status Code returned if product is not null?
+*/
+
+public IActionResult GetProduct(int id)
+{
+    var product = _service.Find(id);
+    return product is not null ? Ok(product) : NoContent();
+}
+
+/*
+a. 404 Not found
+b. 200 OK with JSON body
+c. 204 No Content
+d. Product.ToString()
+*/

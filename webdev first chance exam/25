@@ -1,0 +1,18 @@
+/*
+25
+Given the following two end points in the same controller, what is the most suitable answer
+*/
+
+[HttpGet("{id}")]
+public IActionResult A(int id)
+ 
+[HttpGet("{name}")]
+public IActionResult B(string name)
+ 
+
+/*
+a. Always picks string one treating numeric values as string too
+b. Runs both correctly
+c. Route ambiguity causes runtime error.
+d. Always picks integer one
+*/

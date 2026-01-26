@@ -1,0 +1,7 @@
+30
+Why is using builder.Configuration["HelloApiToken"] better than hardcoding the API token in middleware?
+ 
+a. Enables routing
+b. Allows changing token without recompiling and supports environment-based configs
+c. Performance
+d. Required by ASP.NET Core

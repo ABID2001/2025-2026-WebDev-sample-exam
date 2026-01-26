@@ -1,0 +1,19 @@
+.example {
+    color: red;
+    font: 12pixels Arial;
+    margin: 5;
+}.example {
+    color: red;
+    font: 12pixels Arial;
+    margin: 5;
+}
+
+/*
+4
+What is wrong with this CSS?
+
+a. Everything is correct
+b. Both the font size unit and the margin value
+c. The font size unit
+d. The margin value
+*/

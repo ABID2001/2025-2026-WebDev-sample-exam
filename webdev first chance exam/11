@@ -1,0 +1,7 @@
+11
+What is the purpose of the Virtual DOM in React?
+ 
+a. To bundle JavaScript, CSS, and images into a single file
+b. To replace the browser’s DOM completely
+c. To provide a lightweight copy of the real DOM and update only the changed parts
+d. To store state values permanently across browser sessions

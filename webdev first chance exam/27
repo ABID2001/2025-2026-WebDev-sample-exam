@@ -1,0 +1,14 @@
+/*
+27
+Which call will execute SQL?
+*/
+
+var q1 = _context.Products.Where(_=> _.Price<100);
+var q2 = q1.OrderBy(_=>_.Price).Take(5);
+
+/*
+a. line 2 (var q2) will execute SQL command and get five products
+b. Both line 1 (var q1) and line 2 (var q2) will not execute the SQL commands
+c. Both line 1 (var q1) and line 2 (var q2) will execute respective queries and get relevant data from database
+d. line 1 (var q1) will execute SQL command and get all products with the price lower than 100
+*/

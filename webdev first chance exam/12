@@ -1,0 +1,14 @@
+async function getData() {
+  return "Done"
+}
+getData().then(console.log)
+
+/*
+12
+What will the JavaScript code above print?
+ 
+a. Done
+b. Promise { “Done” }
+c. undefined
+d. Error
+*/

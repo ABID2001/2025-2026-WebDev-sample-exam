@@ -1,0 +1,14 @@
+console.log("A");
+setTimeout(() => console.log("B"), 100);
+Promise.resolve().then(() => console.log("C"));
+console.log("D");
+
+/*
+15
+Given the JavaScript code above, what is the correct execution order (and console log output order)?
+ 
+a. A, D, C, B
+b. C, A, D, B
+c. C, A, B, D
+d. A, D, B, C
+*/

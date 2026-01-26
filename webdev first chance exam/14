@@ -1,0 +1,7 @@
+14
+Which queue has higher priority in JavaScript’s event loop?
+ 
+a. Task/callback queue
+b. DOM update queue
+c. Render queue
+d. Microtask (Promises, async functions) queue

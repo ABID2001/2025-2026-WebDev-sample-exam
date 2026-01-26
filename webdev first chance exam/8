@@ -1,0 +1,19 @@
+function ActionAllHoFGeneric<T>(arr:Array<T>, fx:(a:T, b:T) => T):T {
+  let result = arr[0];
+
+  for(let i=1; i<arr.length; i++){
+    result = fx(result, arr[i]);  
+  }
+  
+  return result;
+}
+
+/*
+8
+What does the T stand for in this function?
+
+a. <T> always means it is a curried function.
+b. The T is a specific type of large number.
+c. <T> stands for TypeScript
+d. The T makes the values in the array dynamic and dependent on what we pass it (Generics).
+*/

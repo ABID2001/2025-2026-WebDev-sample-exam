@@ -1,0 +1,14 @@
+// Part of a React component's code
+useEffect(() => {
+    localStorage.setItem('counter', counter.toString());
+}, [counter]);
+
+/*
+13
+In this useEffect example, when does the localStorage get updated?
+ 
+a. When the component mounts, and again whenever counter changes
+b. Only when the component is unmounted
+c. Only once when the component mounts
+d. On every single render, no matter what changes
+*/

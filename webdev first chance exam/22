@@ -1,0 +1,7 @@
+22
+Why is business logic discouraged in a Controller?
+ 
+a. It reduces API performance
+b. It makes unit testing difficult and violates Single Responsibility Principle (SRP)
+c. EF Core requires services to run
+d. Controllers cannot compile business logic

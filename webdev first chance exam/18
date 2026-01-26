@@ -1,0 +1,28 @@
+type Admin = {
+  kind: "admin";
+  id: number;
+  name: string;
+  permissions: string[];
+}
+
+type Member = {
+  kind: "member", id: number, name: string, points: number;
+}
+
+type User = Admin | Member;
+
+const apiUsers:Array<User> = [
+  { kind: "member", id: 1, name: "Ripley", points: 42 },
+  { kind: "admin", id: 2, name: "Dallas", permissions: ["read", "write"] },
+  { kind: "member", id: 3, name: "Ash", points: 5 }
+];
+
+/*
+18
+Look at the TypeScript code above. Which one of the code snippets below would you use if you wanted to have an array of member's points?
+
+a. apiUsers.map(points); 
+b. apiUsers.filter(x=>x.kind=="member").map(x=>x.points);
+c. apiUsers.filter(x=>x.points);
+d. apiUsers.reduce(points);
+*/

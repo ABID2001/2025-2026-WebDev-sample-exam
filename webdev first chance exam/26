@@ -1,0 +1,7 @@
+26
+By default, which class name follows the ASP.NET Core convention required for the framework to automatically discover it as a controller?
+ 
+a. Home_Controller
+b. homecontroller
+c. HomeController
+d. Home

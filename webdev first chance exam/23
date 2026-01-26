@@ -1,0 +1,7 @@
+23
+What is dependency injection?
+ 
+a. Injecting views into models
+b. Rendering views asynchronously
+c. Passing dependencies through constructors
+d. Storing data permanently in the database

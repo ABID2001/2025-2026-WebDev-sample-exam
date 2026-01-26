@@ -1,0 +1,7 @@
+5
+Which best practice is recommended for avoiding CSS specificity issues?
+ 
+a. Writing styles directly in HTML
+b. Using only classes, and a good naming convention
+c. Using !important
+d. Using IDs for all elements

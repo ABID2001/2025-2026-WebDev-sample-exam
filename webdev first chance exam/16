@@ -1,0 +1,19 @@
+<Routes>
+    <Route path="/" element={<Navigate to="/home" replace />} />
+    <Route path="/home" element={<Home />} />
+    <Route path="/about" element={<About />} />
+    <Route path="/dashboard" element={<DashboardMain />}>
+        <Route path="settings" element={<DashboardSettings />} />
+        <Route path=":id" element={<Dashboard />} />
+    </Route>
+    <Route path="*" element={<NotFound />} />
+</Routes>
+
+/*
+16
+Given the react router setup above, what component will this code render when visiting the URL path `http://localhost:5173/`?
+ 
+a. <NotFound />
+b. <About />
+c. <Dashboard />
+d. <Home />

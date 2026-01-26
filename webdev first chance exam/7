@@ -1,0 +1,17 @@
+let name = "Piet";
+const age = 65;
+
+name = "Jan";
+age = 45;
+
+console.log(name + " " + age);
+
+/*
+7
+What will happen when we try the above TypeScript code?
+ 
+a. It will cause an error
+b. The output will be: Jan 45
+c. The output will be: Piet 45
+d. The output will be: Jan 65
+*/

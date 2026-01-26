@@ -1,0 +1,7 @@
+9
+What answer best describes "pure functions" in functional programming?
+ 
+a. A function that is recursive instead of using loops.
+b. A function that uses currying by only having one argument
+c. A function that is asynchronous.
+d. A function that always returns the same output for the same input and does not cause side effects.

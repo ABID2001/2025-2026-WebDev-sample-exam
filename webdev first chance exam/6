@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interdimensional Travel Log</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Interdimensional Hub</h1>
+        <p><a href=https://portal.hr.nl>Open a portal to another site</a></p>
+        <nav>
+            <ul>
+                <li><a href="#about">About the Portal</a></li>
+                <li><a href="#article">Science Log</a></li>
+                <li><a href="#contact">Interdimensional Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+<!--
+6
+Which part of this HTML5 document is not correct?
+ 
+a. The position of the <h1>
+b. Everything is correct
+c. The link to portal.hr.nl
+d. The link to portal.hr.nl and the position of the <h1>
+-->

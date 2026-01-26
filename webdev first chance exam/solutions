@@ -1,0 +1,60 @@
+question 1
+    c. Yellow : The selector with highest specificity wins (inline style is most specific)
+question 2
+    a. HTML structures content and tells the browser how to render it
+question 3
+    b. The <top> tag and the tags inside <table> : Should be <tr> and <td>
+question 4
+    b. Both the font size unit and the margin value
+question 5
+    b. Using only classes, and a good naming convention
+question 6
+    c. The link to portal.hr.nl : The link href is missing attribute quotes
+question 7
+    a. It will cause an error
+question 8
+    d. The T makes the values in the array dynamic and dependent on what we pass it (Generics).
+question 9
+    d. A function that always returns the same output for the same input and does not cause side effects.
+question 10
+    d. Only pauses the execution of the async function until the Promise is fulfilled or rejected
+question 11
+    c. To provide a lightweight copy of the real DOM and update only the changed parts
+question 12
+    a. Done
+question 13
+    a. When the component mounts, and again whenever counter changes
+question 14
+    d. Microtask (Promises, async functions) queue
+question 15
+    a. A, D, C, B : (console.log -> callstack, console.log -> callstack, Promise → microtask, Timeout → macrotask)
+question 16
+    d. <Home/>
+question 17
+    b. <Stats /> renders inside <Dashboard /> (where <Outlet /> is placed inside <Dashboard /> )
+question 18
+    b. apiUsers.filter(x=>x.kind=="member").map(x=>x.points);
+question 19
+    d. Auto-generates database schema changes : Migrations synchronize the model with the database.
+question 20
+    b. Add(Product entity) : CRUD lives in the repository; business logic belongs in services.
+question 21
+    a. Where : Where is the filtering predicate.
+question 22
+    b. It makes unit testing difficult and violates Single Responsibility Principle (SRP)
+question 23
+    c. Passing dependencies through constructors
+question 24
+    b. 200 OK with JSON body
+question 25
+    c. Route ambiguity causes runtime error.
+question 26
+    c. HomeController
+question 27
+    b. Both line 1 (var q1) and line 2 (var q2) will not execute the SQL commands
+question 28
+    d. The browser displays "Hello from A!" and the pipeline stops.
+question 29
+    a. Middleware Before → Controller → Middleware After : Request pipeline goes into middleware → next → controller → back out of middleware.
+question 30
+    b. Allows changing token without recompiling and supports environment-based configs : Secrets must come from configuration, not code; this supports dev/test/prod environments.

@@ -1,0 +1,7 @@
+20
+Which method is appropriate to be in a Repository class in the Repository Pattern (when using EF Core)?
+ 
+a. SendOrderEmails()
+b. Add(Product entity)
+c. ComputeOrderTax()
+d. ValidateCustomerStatus()

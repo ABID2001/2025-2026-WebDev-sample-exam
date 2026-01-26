@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<top>
+    <meta charset="UTF-8">
+    <title>Planet Express Delivery Schedule</title>
+</top>
+<body>
+    <main>
+        <h1>Deliveries</h1>
+        <table>
+            <rows>
+                <column>Neptune</column>
+                <column>Robot Santa Claus</column>
+                <column>Xmas letters</column>
+            </rows>
+            <rows>
+                <column>Omicron Persei 8</column>
+                <column>Lrrr and Ndnd</column>
+                <column>Candy hearts</column>
+            </rows>
+        </table>
+    </main>
+    <aside>
+        <h2>Good news everyone!</h2>
+        <p>
+            I've invented a way to make Bender human
+            using a process I call 'reverse fossilization'.
+        </p>
+    </aside>
+</body>
+</html>
+
+<!--
+3
+Which part of this HTML5 document is incorrect?
+
+a. The <top> tag
+b. The <top> tag and the tags inside <table>
+c. The tags inside <table>
+d. Everything is correct
+-->

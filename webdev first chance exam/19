@@ -1,0 +1,7 @@
+19
+What does EF Core Migrations primarily do?
+ 
+a. Auto-generates C# model classes
+b. Automatically seeds test data
+c. Automatically runs SQL queries
+d. Auto-generates database schema changes

@@ -1,0 +1,7 @@
+10
+What does the await keyword do inside an async function?
+ 
+a. It makes a function synchronous
+b. Always throws an error if the Promise takes too long
+c. Blocks the entire JavaScript thread
+d. Only pauses the execution of the async function until the Promise is fulfilled or rejected

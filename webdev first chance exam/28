@@ -1,0 +1,20 @@
+/*
+28
+What happens to the request pipeline when the following code is executed?
+*/
+
+app.Use(async (c, n) =>
+{
+    await c.Response.WriteAsync("Hello from A!");
+});
+ 
+app.Use(async (c, n) =>
+{
+    await c.Response.WriteAsync("Hello from B!");
+});
+
+/*
+a. The browser displays "Hello from B!".
+b. The browser displays "Hello from A!Hello from B!"
+c. The browser displays "Hello from A!" and the pipeline stops.
+*/

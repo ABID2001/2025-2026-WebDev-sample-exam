@@ -1,0 +1,13 @@
+<Route path="/dashboard" element={<Dashboard />}>
+  <Route path="stats" element={<Stats />} />
+</Route>
+
+/*
+17
+Using React Router, what does this nested routing structure do?
+ 
+a. /dashboard/stats is not accessible
+b. <Stats /> renders inside <Dashboard /> (where <Outlet /> is placed inside <Dashboard /> )
+c. <Stats /> replaces <Dashboard /> entirely
+d. Nested routes require useParams()
+*/
